@@ -1,8 +1,15 @@
+:root{
+    --violet : #341145;
+    --white-grey : #E7E7E7
+}
+
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(64, 202, 59, 0.678);
+    background-color: var(--violet);
+    color: var(--white-grey);
 }
   
