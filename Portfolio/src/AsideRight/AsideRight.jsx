@@ -5,6 +5,7 @@ const AsideRight = () =>{
 
     return(
         <div className={style.right}>
+            <button className={style.btnH}>About</button>
             <img src={contact} className={style.contact}/>
         </div>
     )

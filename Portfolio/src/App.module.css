@@ -1,14 +1,14 @@
-
 .home{
-    max-height: 100vh;
+    height: 100vh; /* O la altura que desees */
+    background: linear-gradient(to bottom, #3b134e, #411128);
 }
 
+
 .container{
-    overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
-    align-items: center; 
-    height: 87.7vh;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
     width: 100%;
 }

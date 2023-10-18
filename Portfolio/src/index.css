@@ -8,8 +8,8 @@ body {
     padding: 0;
     max-height: 100vh;
     max-width: 100vw;
-    background: linear-gradient(to bottom, #3b134e, #411128);
     color: var(--white-grey);
     font-family: 'Indie Flower', cursive;
+    background: linear-gradient(to bottom, #3b134e, #411128);
 }
   
