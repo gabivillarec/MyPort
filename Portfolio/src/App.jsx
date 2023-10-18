@@ -2,6 +2,7 @@ import style from './App.module.css';
 import Header from './Header/Header.jsx';
 import AsideLeft from './AsideLeft/AsideLeft';
 import AsideRight from './AsideRight/AsideRight';
+import Hero from './Hero/Hero';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
 
       <div className={style.container}>
         <AsideLeft/>
-        <h1>PortFolio</h1>
+        <Hero/>
         <AsideRight/>
       </div>
       

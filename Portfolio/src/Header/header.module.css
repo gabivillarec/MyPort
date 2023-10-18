@@ -30,13 +30,13 @@
     cursor: pointer;
     color: white;
     background: none;
-    border: 2px solid #b6b6b6de;
+    border: 2px solid #818181de;
     font: inherit;
     line-height: 1;
     margin: 0.5em;
     padding: 1em 2em;
     border-radius: 5px;
-    
+    font-family: 'Source Code Pro', monospace;  
 }
 .btnH:hover{
 
