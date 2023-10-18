@@ -30,11 +30,12 @@
     cursor: pointer;
     color: white;
     background: none;
-    border: 2px solid #a972cb;
+    border: 2px solid #b6b6b6de;
     font: inherit;
     line-height: 1;
     margin: 0.5em;
     padding: 1em 2em;
+    border-radius: 5px;
     
 }
 .btnH:hover{

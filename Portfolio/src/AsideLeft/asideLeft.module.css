@@ -14,23 +14,24 @@
 }
 
 .git{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+    cursor: pointer;
 }
 
-.link{
-    height: 40px;
-    width: 40px;
+.link, .face{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+    cursor: pointer;
 }
 
-.face{
-    height: 40px;
-    width: 40px;  
+.git:hover , .link:hover, .face:hover{
+    filter:drop-shadow(1px 1px 1px  #a972cb);
 }
 
-.barril{
-    height: 80px;
-    width: 80px;
-    margin-top: 20px;
-    justify-self: flex-end;
-}
+
+
