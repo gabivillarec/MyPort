@@ -9,7 +9,7 @@ body {
     max-height: 100vh;
     max-width: 100vw;
     color: var(--white-grey);
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Source Code Pro', monospace; 
     background: linear-gradient(to bottom, #3b134e, #411128);
 }
   
