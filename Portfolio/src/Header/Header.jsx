@@ -6,10 +6,10 @@ const Header = ()=>{
     return(
         <div className={style.header}>
 
-            <img src={copa}/>
+            <img src={copa} className={style.copa}/>
             <section className={style.botones}>
-            <button>About</button>
-            <button>Projects</button>
+            <button className={style.btnH}>About</button>
+            <button className={style.btnH}>Projects</button>
             </section>
 
         </div>

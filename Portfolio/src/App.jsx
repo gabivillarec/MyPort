@@ -1,16 +1,20 @@
 import style from './App.module.css';
 import Header from './Header/Header.jsx';
-//import AsideRight from './AsideRight/AsideRight';
-//import AsideLeft from './AsideLeft/AsideLeft';
+import AsideLeft from './AsideLeft/AsideLeft';
+import AsideRight from './AsideRight/AsideRight';
 
 
 function App() {
 
   return (
-    <div className={style.container}>
+    <div className={style.home}>
       <Header/>
-      <h1>PortFolio</h1>
 
+      <div className={style.container}>
+        <AsideLeft/>
+        <h1>PortFolio</h1>
+        <AsideRight/>
+      </div>
       
     </div>
   )
