@@ -1,6 +1,5 @@
 :root{
-    --violet : #341145;
-    --white-grey : #E7E7E7;
+    --white-grey : hsl(0, 0%, 91%);
 }
 
 body {
@@ -9,7 +8,7 @@ body {
     padding: 0;
     max-height: 100vh;
     max-width: 100vw;
-    background-color: var(--violet);
+    background: linear-gradient(to bottom, #3b134e, #411128);
     color: var(--white-grey);
     font-family: 'Indie Flower', cursive;
 }
