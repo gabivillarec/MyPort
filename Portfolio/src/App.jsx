@@ -1,22 +1,22 @@
 import style from './App.module.css';
-import AsideLeft from './AsideLeft/AsideLeft';
-import AsideRight from './AsideRight/AsideRight';
-import Hero from './Hero/Hero';
+import Home from './Home/Home';
+import About from './About/About';
+import Projects from './Projects/Projects';
 
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
 
+
+
   return (
-
-    <div className={style.home}>
-
-      <div className={style.container}>
-        <AsideLeft/>
-        <Hero/>
-        <AsideRight/>
-      </div>
-      
-    </div>
+  <div className={style.container}>
+    <Routes>
+        <Route path='/' element={<Home/>}/> 
+        <Route path='/about' element={<About/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+    </Routes>
+  </div>
 
   )
 }

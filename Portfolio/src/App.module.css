@@ -1,14 +1,6 @@
-.home{
-    height: 100vh; /* O la altura que desees */
+.container{
+    height: 100vh;
     background: linear-gradient(to bottom, #3b134e, #411128);
 }
 
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%; 
-    width: 100%;
-}
