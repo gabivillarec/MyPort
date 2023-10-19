@@ -20,9 +20,9 @@ const AsideLeft = ({restartAnimation}) =>{
             <img src={copa} className={style.copa} onClick={handleCup}/>
 
             <div className={style.botonera}>
-                <a href="https://github.com/gabivillarec" target='blank'><img src={github} className={style.git}/></a>
-                <a href="https://www.linkedin.com/in/gabriel-villalobos-546b29a7/" target='blank'><img src={linkedin} className={style.link}/></a>
-                <a href="https://www.facebook.com/GabrielVillalobosRecabarren/" target='blank'><img src={facebook} className={style.face}/></a>
+                <a href="https://github.com/gabivillarec" target="_blank"><img src={github} className={style.git}/></a>
+                <a href="https://www.linkedin.com/in/gabriel-villalobos-546b29a7/" target="_blank"><img src={linkedin} className={style.link}/></a>
+                <a href="https://www.facebook.com/GabrielVillalobosRecabarren/" target="_blank"><img src={facebook} className={style.face}/></a>
             </div>
 
         </div>
