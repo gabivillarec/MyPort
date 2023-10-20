@@ -1,7 +1,7 @@
 import style from './projects.module.css'
 import { useState, useEffect } from "react";
 import AsideLeft from "../Home/AsideLeft/AsideLeft";
-
+import Caja from './Caja/Caja';
 
 const Projects = () =>{
 
@@ -19,7 +19,10 @@ const Projects = () =>{
         <div className={style.container}>
             <AsideLeft/>
             <div className={`${style.pro} ${isVisible ? style.fadeIn : ''}`}>
-                <h1>asfasf</h1>
+                <Caja/>
+                <Caja/>
+                <Caja/>
+
             </div>
         </div>
     )
