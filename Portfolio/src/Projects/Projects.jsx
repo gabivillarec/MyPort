@@ -2,11 +2,20 @@ import style from './projects.module.css'
 import { useState, useEffect } from "react";
 import AsideLeft from "../Home/AsideLeft/AsideLeft";
 import Caja from './Caja/Caja';
+import rick from './assets/rick.png'
+import city from './assets/city.jpg'
+import liliana from './assets/liliana.png'
 
-const Projects = () =>{
+const arrayPro = [
+    {id:1 , title:"Rick and Morty", link:"https://github.com/gabivillarec/Proyecto-RaM", img:rick, texto:"lorem lksahfglakshflkashflkashflkashflkasfhlkashflkashflakshflkashflk"},
+    {id:2 , title:"City of Games", link:"https://github.com/gabivillarec/PI-Videogames-main", img:city, texto:"lorem  lksahfglakshflkashflkashflkashflkasfhlkashflkashflakshflkashflk"},
+    {id:3 , title:"Liliana Games", link:"https://github.com/gabivillarec/Liliana-GameStore", img:liliana, texto:"lorem  lksahfglakshflkashflkashflkashflkasfhlkashflkashflakshflkashflk"}
+]
+
+const Projects = () =>{   
 
     const [isVisible, setIsVisible] = useState(false);
-
+    
     useEffect(() => {
         setIsVisible(true);
 
@@ -19,9 +28,16 @@ const Projects = () =>{
         <div className={style.container}>
             <AsideLeft/>
             <div className={`${style.pro} ${isVisible ? style.fadeIn : ''}`}>
-                <Caja/>
-                <Caja/>
-                <Caja/>
+               {arrayPro.map(el=>{
+                return(
+                    <Caja
+                    key= {el.id}
+                    title= {el.title}
+                    link= {el.link}
+                    img= {el.img}
+                />)
+                })
+            }
 
             </div>
         </div>
