@@ -12,6 +12,7 @@
 
 
 .botonera{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +20,8 @@
 }
 
 .git{
-    height: 35px;
-    width: 35px;
+    height: 34px;
+    width: 34px;
     margin-bottom: 30px;
     cursor: pointer;
 }
