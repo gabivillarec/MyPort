@@ -4,13 +4,13 @@
 
 
 body {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+    min-height: 100vh;
     max-width: 100vw;
     color: var(--white-grey);
     font-family: 'Source Code Pro', monospace; 
     background: linear-gradient(to bottom, #3b134e, #411128);
+    background-size:cover;
 }
   
