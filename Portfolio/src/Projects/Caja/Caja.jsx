@@ -1,5 +1,6 @@
 import style from './caja.module.css'
 import github from '../assets/github.svg'
+import PropTypes from 'prop-types'
 
 const Caja = ({title,link,img,texto}) =>{
 
@@ -22,5 +23,12 @@ const Caja = ({title,link,img,texto}) =>{
 
     )
 };
+
+Caja.propTypes = {
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    img: PropTypes.any.isRequired,
+    texto: PropTypes.string.isRequired
+}
 
 export default Caja;

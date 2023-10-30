@@ -3,8 +3,8 @@
 .box {
     width: 500px;
     height: 370px;
-    background: linear-gradient(to bottom,#381b38bb,#311820bd);
-    background-color: #eec29fab;
+    background: linear-gradient(to bottom,#381b38bb,#311820b7);
+    background-color: #368b80da;
     border: 1px solid rgba(0, 233, 202, 0.288);
     border-radius: 10px;
     box-shadow: -5px -7px 203px -111px #240038;
