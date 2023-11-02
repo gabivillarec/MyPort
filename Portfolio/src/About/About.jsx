@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import style from './about.module.css'
 import AsideLeft from "../Home/AsideLeft/AsideLeft";
+import yo from "./assets/yo.png"
 
 const About = () =>{
 
@@ -18,7 +19,8 @@ const About = () =>{
         <div className={style.container}>
             <AsideLeft/>
             <div className={`${style.resume} ${isVisible ? style.fadeIn : ''}`}>
-                <h1>Esto es about</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis vel, doloribus porro odit praesentium facere in voluptatum, iure eveniet voluptas eum enim alias consequatur beatae ipsam quos. Eum, voluptas architecto! </p>
+                <img src={yo} alt="Gabriel Villalobos" className={style.yo} />
             </div>
         </div>
     )

@@ -9,12 +9,24 @@
 }
 
 .resume{
-
+    height: 85%;
+    width: 85%;
+    padding: 50px;
     opacity: 0;
-    transition: opacity 1.3s ease, transform 1.5s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fadeIn {
     opacity: 1;
-  }
+}
+
+.yo {
+    align-self: self-start;
+    width: 200px;
+    border: solid 2px rgba(0, 233, 202, 0.288);
+    border-radius: 190px;
+}
 
