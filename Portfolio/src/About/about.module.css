@@ -10,12 +10,12 @@
 
 .resume{
     height: 85%;
-    width: 85%;
+    width: 87%;
     padding: 50px;
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -23,10 +23,33 @@
     opacity: 1;
 }
 
+.text{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoBox {
+    width: 60%;
+    height: 150px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos{
+    width: 60px;
+    height: 60px;
+    filter:drop-shadow(1px 1px 1px  #368b80da);
+}
 .yo {
     align-self: self-start;
-    width: 200px;
+    width: 180px;
     border: solid 2px rgba(0, 233, 202, 0.288);
-    border-radius: 190px;
+    border-radius: 20px;
 }
 
