@@ -26,7 +26,7 @@ const Home = () =>{
      
     return (
         <div className={`${style.home} ${isVisible ? style.fadeIn : ''}`}>
-            <AsideLeft restartAnimation={restartAnimation}/>
+            <AsideLeft  restartAnimation={restartAnimation}/>
             <Hero/>
             <AsideRight/>
         </div>

@@ -4,6 +4,7 @@ import facebook from '../assets/facebook.svg'
 import linkedin from '../assets/linkedin.svg'
 import copa from '../assets/copa-de-vino.png';
 import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types'
 
 const AsideLeft = ({restartAnimation}) =>{
 
@@ -27,6 +28,10 @@ const AsideLeft = ({restartAnimation}) =>{
 
         </div>
     )
+};
+
+AsideLeft.propTypes = {
+    restartAnimation: PropTypes.any.isRequired
 }
 
 export default AsideLeft

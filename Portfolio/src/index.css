@@ -4,6 +4,7 @@
 
 
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -11,6 +12,7 @@ body {
     color: var(--white-grey);
     font-family: 'Source Code Pro', monospace; 
     background: linear-gradient(to bottom, #3b134e, #411128);
-    background-size:cover;
+    background-attachment: fixed; /* Fija el fondo para que se muestre correctamente al hacer scroll */
+    background-size: cover; /* Cubre toda la altura del contenedor */
 }
   
