@@ -6,6 +6,7 @@
     align-items: center;
     height: 100%; 
     width: 100%;
+    position: relative;
 }
 
 .resume{
@@ -24,14 +25,29 @@
 }
 
 .text{
-    width: 80%;
-    margin-left: 60px;
+    width: 74%;
+    margin-left: 120px;
+    margin-top: 60px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.753);
 }
+
+.greet {
+    color: rgb(0, 233, 202);
+    font-size: 18.5px;
+}
+
+.henry {
+    color: rgba(255, 255, 0, 0.836);
+    text-decoration: none;
+}
+ henry:visited {
+    color: rgba(255, 255, 0, 0.836);
+ }
 
 .acerca{
     width: 100%;
@@ -41,10 +57,9 @@
 }
 
 .logoBox {
-    width: 60%;
-    height: 150px;
-    margin-left: 120px;
-    margin-bottom: -70px;
+    width: 69%;
+    height: 148px;
+    margin-bottom: -40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -59,14 +74,26 @@
 .yo {
     align-self: self-start;
     width: 180px;
-    border: solid 2px rgba(0, 233, 202, 0.288);
-    border-radius: 20px;
+    border: 1px solid rgba(0, 233, 202, 0.288);
+    border-radius: 10px;
+    box-shadow: -5px -7px 203px -111px #240038;
+    opacity: 0.9;
 }
 
-a{
+.ana {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1050px;
+    width: 600px;
+    z-index: -1;
+    opacity: 0.05;
+    filter: grayscale(100%);
+}
+
+.cv{
     color: rgb(0, 233, 202);   
 }
 
-a:visited{
+cv:visited{
     color:#368b80da
 }
