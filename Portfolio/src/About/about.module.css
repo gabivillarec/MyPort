@@ -69,7 +69,7 @@
 .logos{
     width: 60px;
     height: 60px;
-    filter:drop-shadow(1px 1px 1px  #368b80da);
+    filter:drop-shadow(1px 1px 1px  #368b8091);
 }
 .yo {
     align-self: self-start;
@@ -82,11 +82,11 @@
 
 .ana {
     position: absolute;
-    margin-top: 300px;
-    margin-left: 1050px;
-    width: 600px;
+    margin-top: 340px;
+    margin-left: 1080px;
+    width: 550px;
     z-index: -1;
-    opacity: 0.05;
+    opacity: 0.01;
     filter: grayscale(100%);
 }
 
