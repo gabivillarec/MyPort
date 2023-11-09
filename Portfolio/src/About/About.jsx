@@ -31,12 +31,12 @@ const About = () =>{
             <AsideLeft/>
             <div className={`${style.resume} ${isVisible ? style.fadeIn : ''}`}>
                 <div className={style.text}>
-                    <p className={style.acerca}><span className={style.greet}>Greetings</span>, I am a <em>web developer</em> and <em>winemaker</em> with a love for the world of wine and a strong background in web development.
+                    <div className={style.acerca}><span className={style.greet}>Greetings</span>, I am a <em>web developer</em> and <em>winemaker</em> with a love for the world of wine and a strong background in web development.<br/>
                     <p>My fascination with chemistry led me to explore the universe of wine. I have acquired all the necessary knowledge to approach winemaking professionally, having undertaken multiple projects involving homemade wines beyond commercial products.</p>
                     <p>However, oenology is not the only facet that defines me. From an early age, technology, especially computers, has been my passion. I became a self-taught individual in this field, providing software maintenance services to various clients who rely on my expertise to address their IT needs.</p>
                     <p>My foray into web development was driven by curiosity, as it was not initially the branch of informatics that attracted me the most. In 2020, I had my first encounter with a programming language, <em>JavaScript</em>. At that time, I found it challenging to grasp, as I lacked knowledge of <em>HTML</em> and <em>CSS</em>. Nevertheless, I dedicated myself to learning these fundamentals and prepared to join <a href='https://www.soyhenry.com/' target='_blank'rel="noreferrer" className={style.henry} >HENRY</a>, where I participated in a bootcamp that expanded my knowledge.</p>
                     <p>Currently, working with programming languages has opened up new horizons for me and motivated me to continue developing in this field. I am eager to keep learning and exploring this exciting and challenging world.</p>
-                    <p>If you would like to learn more about my career, please do not hesitate to review my <a className={style.cv} href='https://drive.google.com/file/d/1JkfL9NCh8BupqDk6PF3BTy0Z9zFf4YDe/view?usp=drive_link' target='_blank'rel="noreferrer">CV</a>.</p></p>
+                    <p>If you would like to learn more about my career, please do not hesitate to review my <a className={style.cv} href='https://drive.google.com/file/d/1JkfL9NCh8BupqDk6PF3BTy0Z9zFf4YDe/view?usp=drive_link' target='_blank'rel="noreferrer">CV</a>.</p></div>
                                         
                     <div className={style.logoBox}> 
                         <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">

@@ -10,15 +10,17 @@ const AsideLeft = ({restartAnimation}) =>{
 
     const navigate = useNavigate();
 
+    
+
     const handleCup = () => {
         navigate('/');
-        restartAnimation()
+        restartAnimation;
       };
 
     return(
         <div className={style.left}>
 
-            <img src={copa} className={style.copa} onClick={handleCup}/>
+        <img src={copa} className={style.copa} onClick={handleCup}/>
 
             <div className={style.botonera}>
                 <a href="https://github.com/gabivillarec" target="_blank" rel='noreferrer'><img src={github} className={style.git}/></a>
@@ -31,7 +33,7 @@ const AsideLeft = ({restartAnimation}) =>{
 };
 
 AsideLeft.propTypes = {
-    restartAnimation: PropTypes.any.isRequired
-}
+    restartAnimation: PropTypes.func,
+  }
 
 export default AsideLeft

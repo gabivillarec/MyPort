@@ -42,7 +42,8 @@
     padding: 0.7em 1.7em;
     border-radius: 5px;
     font-family: 'Source Code Pro', monospace;
-    font-size: 18px;  
+    font-size: 18px;
+    user-select: none;  
 }
 .btn:hover{
     color: rgb(0, 233, 202);

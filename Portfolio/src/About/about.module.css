@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.753);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
 }
 
 .greet {
@@ -51,6 +51,7 @@
 
 .acerca{
     width: 100%;
+    margin-top: 50px;
     font-size: 18px;
     line-height: 27px;
     text-indent: 10px;
@@ -67,8 +68,8 @@
 }
 
 .logos{
-    width: 60px;
-    height: 60px;
+    width: 58px;
+    height: 58px;
     filter:drop-shadow(1px 1px 1px  #368b8091);
 }
 .yo {

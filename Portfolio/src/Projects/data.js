@@ -9,7 +9,7 @@ const data = [
         title:"Rick and Morty", 
         link:"https://github.com/gabivillarec/Proyecto-RaM", 
         img:rick, 
-        texto:"lorem lksahfglakshf lkashflkashf lkashflk asfhlkashf lkashflaksh flkashflk"
+        texto: "Uso de API, login de usuario, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, rutas, controllers y base de datos. Primer proyecto individual asignado por Henry para evaluar competencias implementadas dentro de todo el bootcamp."
     },
 
     {   
@@ -17,7 +17,7 @@ const data = [
         title:"City of Games", 
         link:"https://github.com/gabivillarec/PI-Videogames-main", 
         img:city, 
-        texto:"lorem  lksahfglak shflkash flkashf lkashflkas fhlkashf lkashflak shflkashflk"
+        texto:"Uso de API, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, rutas, controllers y base de datos. Segundo proyecto individual asignado por Henry para evaluar competencias implementadas dentro de todo el bootcamp."
     },
 
     {   
@@ -25,7 +25,7 @@ const data = [
         title:"Liliana Games", 
         link:"https://github.com/gabivillarec/Liliana-GameStore", 
         img:liliana, 
-        texto:"lorem  lksahfglakshf lkashflkashfl kashflkasfh lkashflka shflak shflkashflk"
+        texto:"Login, mercado pago, carrito de compras, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, rutas, controllers y base de datos. Primer proyecto Grupal trabajado entre 6 participantes usando Jira y GitHub"
     }
 ];
 
