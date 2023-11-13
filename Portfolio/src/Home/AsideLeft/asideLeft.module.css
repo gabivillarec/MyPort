@@ -48,4 +48,9 @@
     filter:drop-shadow(3px 3px 3px #a972cb);
 }
 
+@media only screen and (max-width: 779px){
 
+    .left {
+        display: none;
+    }
+  }

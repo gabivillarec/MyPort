@@ -25,7 +25,7 @@ const data = [
         title:"Liliana Games", 
         link:"https://github.com/gabivillarec/Liliana-GameStore", 
         img:liliana, 
-        texto:"Login, mercado pago, carrito de compras, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, rutas, controllers y base de datos. Primer proyecto Grupal trabajado entre 6 participantes usando Jira y GitHub"
+        texto:"Login, mercado pago, carrito de compras, búsquedas, filtros, ordenamiento, formularios controlados, Redux y estados, rutas, controllers y base de datos. Primer proyecto grupal elaborado por 6 participantes, por medio de GitHub y organizado en Jira"
     }
 ];
 

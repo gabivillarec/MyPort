@@ -36,6 +36,14 @@
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
 }
 
+.acerca{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    text-indent: 10px;
+}
+
 .greet {
     color: rgb(0, 233, 202);
     font-size: 18.5px;
@@ -48,14 +56,6 @@
  henry:visited {
     color: rgba(255, 255, 0, 0.836);
  }
-
-.acerca{
-    width: 100%;
-    margin-top: 50px;
-    font-size: 18px;
-    line-height: 27px;
-    text-indent: 10px;
-}
 
 .logoBox {
     width: 69%;
@@ -97,4 +97,79 @@
 
 cv:visited{
     color:#368b80da
+}
+
+.botoneraHero{
+    display: none;
+}
+
+@media only screen and (max-width: 1900px) {
+    .ana {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1400px){
+
+    .logoBox{
+        display:none;
+    }
+
+    .ana {
+        display: none;
+    }
+
+    .text{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width:1100px){
+
+    .henry{
+        text-decoration:underline;
+        font-size: 18.5px;
+    }
+
+    .cv{
+        font-size: 18.5px;
+    }
+
+    .yo{
+        display: none;
+    }
+
+    .acerca{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+@media only screen and (max-width: 780px){
+
+    .botoneraHero{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .giti{
+        height: 34px;
+        width: 34px;
+        margin-bottom: 30px;
+    }
+    
+    .linki, .facei{
+        height: 30px;
+        width: 30px;
+        margin-bottom: 30px;
+    }
+}
+
 }
