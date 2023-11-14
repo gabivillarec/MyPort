@@ -66,6 +66,8 @@
 
    .btn{
     align-self: center;
+    width: 160px;
+    font-size: 17px;
    }
 
 
@@ -74,11 +76,11 @@
     cursor: pointer;
     color: white;
     background: none;
-    width: 180px;
+    width: 160px;
     border: 2px solid #818181de;
     padding: 0.7em 1.7em;
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 25px;
     font-family: 'Source Code Pro', monospace;
     font-size: 17px;
     align-self: center;  
