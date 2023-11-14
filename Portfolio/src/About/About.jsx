@@ -6,6 +6,7 @@ import analitica from "./assets/analitica.png"
 import github from '../Home/assets/github.svg'
 import facebook from '../Home/assets/facebook.svg'
 import linkedin from '../Home/assets/linkedin.svg'
+import wap from './assets/wap.png'
 
 let css3 = "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg";
 let html5 = "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg";
@@ -64,6 +65,13 @@ const About = () =>{
                      <a href="https://github.com/gabivillarec" target="_blank" rel='noreferrer'><img src={github} className={style.giti}/></a>
                      <a href="https://www.linkedin.com/in/gabriel-villalobos-546b29a7/" target="_blank" rel='noreferrer'><img src={linkedin} className={style.linki}/></a>
                      <a href="https://www.facebook.com/GabrielVillalobosRecabarren/" target="_blank" rel='noreferrer'><img src={facebook} className={style.facei}/></a>
+                     <a
+                        className={style.wap}
+                        href="https://api.whatsapp.com/send?phone=5492644460454&text=Hola%20👋%20Me%20comunico%20contigo%20a%20través%20de%20tu%20portfolio.%20"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img src={wap} className={style.wap} />
+                    </a>
                     </div>
                 
                 </div>
