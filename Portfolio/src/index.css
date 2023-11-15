@@ -4,6 +4,7 @@
 
 
 body {
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ body {
     background-color: #411128;
     background-attachment: fixed; /* Fija el fondo para que se muestre correctamente al hacer scroll */
     background-size: cover; /* Cubre toda la altura del contenedor */
+    
 }
   
 
