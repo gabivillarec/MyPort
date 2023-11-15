@@ -1,6 +1,6 @@
 import rick from './assets/rick.png'
 import city from './assets/city.jpg'
-import liliana from './assets/liliana.png'
+import liliana from './assets/Liliana.png'
 
 
 const data = [
