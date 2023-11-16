@@ -65,9 +65,18 @@ wap:visited{
     box-shadow: 0px 2px 4px -7px #000000, 0px 3px 17px 4px rgba(0, 233, 202, 0.247);
 }
 
+
 @media only screen and (max-width: 779px){
 
    .right{
     display: none;
    }
+  }
+
+  @media only screen and (max-width: 1120px){
+
+    .btnH{
+        
+        font-size: 17px;
+    }
   }

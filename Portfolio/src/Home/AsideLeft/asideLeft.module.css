@@ -11,7 +11,7 @@
 }
 
 
-.botonera{
+.botonera, .botoneraHome{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -48,9 +48,21 @@
     filter:drop-shadow(3px 3px 3px #a972cb);
 }
 
-@media only screen and (max-width: 779px){
+@media only screen and (max-width: 780px){
 
     .left {
         display: none;
     }
   }
+
+@media only scree and (max-width:945px){
+ .left{
+    
+ }
+}
+
+@media only screen and (max-width: 1100px){
+    .botonera{
+        display: none;
+    }
+}
