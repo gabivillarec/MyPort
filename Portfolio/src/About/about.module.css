@@ -109,6 +109,19 @@ cv:visited{
     }
 }
 
+@media only screen and (max-height:769px){
+    .acerca{
+        margin-top: 10px;
+        line-height: 21px;
+        text-indent: 10px;
+    }
+
+    .resume{
+        padding: 40px;
+    }
+    
+}
+
 @media only screen and (max-width:1400px){
 
     .logoBox{
@@ -128,7 +141,7 @@ cv:visited{
 
 }
 
-@media only screen and (max-width:1100px){
+@media only screen and (max-width:1120px){
 
     .henry{
         text-decoration:underline;
