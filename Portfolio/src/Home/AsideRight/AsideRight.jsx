@@ -18,6 +18,8 @@ const AsideRight = () =>{
     
     return(
         <div className={style.right}>
+            <button className={style.btnH} onClick={()=>navigate('/about')}>About</button>
+            <img src={contact} className={rotate ? `${style.contact} ${style.rotate}` : style.contact} onClick={handleClose}/>
             {close ? <div className={style.clip}>
                 <p>
                     WhatsApp:  <a
@@ -30,8 +32,6 @@ const AsideRight = () =>{
                     Outlook : bl_182_bl@hotmail.com<br/>
                 </p>
             </div> : null}
-            <button className={style.btnH} onClick={()=>navigate('/about')}>About</button>
-            <img src={contact} className={rotate ? `${style.contact} ${style.rotate}` : style.contact} onClick={handleClose}/>
         </div>
     )
 };
