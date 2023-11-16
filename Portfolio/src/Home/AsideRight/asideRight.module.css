@@ -19,7 +19,7 @@
     height: 150px;
     padding: 20px;
     right: 30%;
-    top: 69%;
+    bottom: 5%;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 79% 75%, 83% 100%, 50% 75%, 0% 75%);
     user-select:text;
 }
@@ -66,6 +66,19 @@ wap:visited{
 }
 
 
+
+@media only screen and (max-height: 1080px){
+    .clip {
+        bottom: 10%
+    }  
+}
+
+@media only screen and (max-height: 769px){
+    .clip {
+        right: 10%
+    }  
+}
+
 @media only screen and (max-width: 779px){
 
    .right{
@@ -80,3 +93,4 @@ wap:visited{
         font-size: 17px;
     }
   };
+
