@@ -55,7 +55,7 @@
     display: none;
 }
 
-/* @media only screen and (max-height:769px){
+@media only screen and (max-height:769px){
 
     .saludo{
         font-size: 16px;
@@ -70,9 +70,9 @@
         font-size: 3.1rem;
     }
     
-} */
+}
 
-/* @media only screen and (max-width: 1120px){
+@media only screen and (max-width: 1120px){
 
     .saludo{
         font-size: 14.8px;
@@ -154,4 +154,4 @@
         width: 100%;
     }
 
-  } */
+  }
