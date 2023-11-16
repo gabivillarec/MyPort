@@ -8,6 +8,7 @@ const Hero = () =>{
 
 
     return(
+        <>
         <div className={style.container}>
             <p className={style.saludo}>Hi, my name is</p>
             <h1 className={style.name}>Gabriel Villalobos.</h1>
@@ -16,6 +17,7 @@ const Hero = () =>{
             <button className={style.btn} onClick={()=>navigate('/projects')}>Projects</button>
             <button className={style.btnH} onClick={()=>navigate('/about')}>About</button>
         </div>
+        </>
     )
 };
 
