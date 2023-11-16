@@ -74,7 +74,7 @@
 
 @media only screen and (max-width: 1120px){
     .saludo{
-        font-size: 14.5px;
+        font-size: 14.8px;
         margin-bottom: -30px;
     }
 
@@ -87,7 +87,7 @@
     }
 
     .description{
-        font-size: 14.5px;
+        font-size: 14.8px;
     }
 
     .btn{
@@ -97,7 +97,6 @@
        }
     
 }
-
 
 @media only screen and (max-width: 779px){
 
@@ -109,7 +108,7 @@
    .btn{
     align-self: center;
     width: 160px;
-    font-size: 17px;
+    font-size: 14.8px;
    }
 
 
@@ -124,7 +123,7 @@
     border-radius: 5px;
     margin-top: 25px;
     font-family: 'Source Code Pro', monospace;
-    font-size: 17px;
+    font-size: 14.8px;
     align-self: center;  
     }
 
@@ -136,7 +135,7 @@
     
 
     .saludo{
-        font-size: 16px;
+        font-size: 14.8px;
         margin-bottom: -20px;
     }
     
@@ -151,7 +150,7 @@
     
     
     .description{
-        font-size: 16px;
+        font-size: 14.8px;
         width: 100%;
     }
 
