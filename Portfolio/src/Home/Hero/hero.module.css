@@ -1,5 +1,5 @@
 
-.container{
+.contHero{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -100,7 +100,7 @@
 
 @media only screen and (max-width: 779px){
 
-   .container{
+   .contHero{
     width: 82%;
     max-height: 100%;
    }
