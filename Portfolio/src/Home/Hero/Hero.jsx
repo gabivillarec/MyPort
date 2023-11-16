@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import style from './hero.module.css'
+import style from './heroStyle.module.css'
 
 
 const Hero = () =>{
