@@ -71,7 +71,7 @@ wap:visited{
    .right{
     display: none;
    }
-  }
+  };
 
   @media only screen and (max-width: 1120px){
 
@@ -79,4 +79,4 @@ wap:visited{
         
         font-size: 17px;
     }
-  }
+  };
