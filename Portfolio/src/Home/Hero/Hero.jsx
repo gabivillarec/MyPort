@@ -8,7 +8,7 @@ const Hero = () =>{
 
 
     return(
-        <div className={style.heros}>
+        <div className={style.container}>
             <p className={style.saludo}>Hi, my name is</p>
             <h1 className={style.name}>Gabriel Villalobos.</h1>
             <h1 className={style.prof}>FullStack Developer and Winemaker.</h1>
