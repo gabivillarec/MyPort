@@ -9,7 +9,7 @@ const Hero = () =>{
 
     return(
 
-        <div className={style.contHero}>
+        <div className={style.her}>
             <p className={style.saludo}>Hi, my name is</p>
             <h1 className={style.name}>Gabriel Villalobos.</h1>
             <h1 className={style.prof}>FullStack Developer and Winemaker.</h1>
