@@ -29,7 +29,12 @@ const AsideRight = () =>{
                         rel="noopener noreferrer">
                         +54 2644 460454
                     </a><br/><br/>
-                    Outlook : bl_182_bl@hotmail.com<br/>
+                    Outlook : <a
+                    className={style.mail} 
+                    href="mailto:bl_182_bl@hotmail.com" 
+                    target="sendEmail">
+                        bl_182_bl@hotmail.com
+                    </a><br/>
                 </p>
             </div> : null}
         </div>

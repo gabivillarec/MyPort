@@ -24,8 +24,12 @@
     user-select:text;
 }
 
-.wap {
+.wap, .mail {
     color: rgb(0, 233, 202); 
+}
+
+.mail {
+    text-decoration: none;
 }
 
 wap:visited{
